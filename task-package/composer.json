@@ -1,0 +1,19 @@
+{
+    "name": "task/package",
+    "description": "movie api laravel package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Task\\Package\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Task\\Package\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
